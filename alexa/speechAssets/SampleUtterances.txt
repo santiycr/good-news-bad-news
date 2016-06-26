@@ -1,0 +1,23 @@
+GetGoodNewsIntent tell me good news
+GetGoodNewsIntent give me good news
+GetGoodNewsIntent good news
+GetGoodNewsIntent tell me something good
+GetGoodNewsIntent tell me the good
+GetGoodNewsIntent tell me something merry
+GetGoodNewsIntent good news first
+
+GetBadNewsIntent tell me bad news
+GetBadNewsIntent give me bad news
+GetBadNewsIntent bad news
+GetBadNewsIntent tell me something bad
+GetBadNewsIntent tell me the bad
+GetBadNewsIntent tell me something sad
+GetBadNewsIntent bad news first
+
+GetDayIntent give me the day rundown
+GetDayIntent day rundown
+GetDayIntent how is the day
+GetDayIntent day rundown
+GetDayIntent what does the day look like
+GetDayIntent is it a bad or a good day
+GetDayIntent what's the day looking like

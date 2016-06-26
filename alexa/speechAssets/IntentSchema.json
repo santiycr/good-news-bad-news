@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "GetGoodNewsIntent"
+    },
+    {
+      "intent": "GetBadNewsIntent"
+    },
+    {
+      "intent": "GetDayIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
