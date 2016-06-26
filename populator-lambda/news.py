@@ -4,7 +4,13 @@ import json
 import urllib
 import urllib2
 
-import credentials
+
+with open('credentials.json') as f:
+    credentials = json.loads(f.read())
+    AWS_ACCESS_KEY = credentials['AWS_ACCESS_KEY']
+    AWS_SECRET_KEY = credentials['AWS_SECRET_KEY']
+    NEWS_API_KEY = credentials['NEWS_API_KEY']
+    SENTIMENT_API_KEY = credentials['SENTIMENT_API_KEY']
 
 S3_BUCKET = 'good-news-bad-news'
 S3_BADNEWS = 'bad-news.json'
@@ -13,10 +19,6 @@ CATEGORIES = ['World', 'Politics', 'US']
 NEWS_BASE_URL = 'https://api.cognitive.microsoft.com/bing/v5.0/news'
 SENTIMENT_BASE_URL = \
     'https://api.havenondemand.com/1/api/sync/analyzesentiment/v1'
-AWS_ACCESS_KEY = credentials.AWS_ACCESS_KEY
-AWS_SECRET_KEY = credentials.AWS_SECRET_KEY
-NEWS_API_KEY = credentials.NEWS_API_KEY
-SENTIMENT_API_KEY = credentials.SENTIMENT_API_KEY
 
 
 def clean(text):
